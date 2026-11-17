@@ -14,7 +14,7 @@ Format details, templates, and worked examples live in [references/spesifikasi-f
 ## When this skill applies
 
 - The user has a finished package from asesmen_kurikulum_merdeka (or an equivalent item set) and asks for Kartu Soal, a printable exam script, or an import file.
-- The user asks for a bank soal in GIFT, Moodle XML, CSV, or JSON form, for example for NINEXAM or a Moodle-based CBT.
+- The user asks for a bank soal in GIFT, Moodle XML, CSV, or JSON form, for example for a Moodle-based CBT or another LMS.
 - The user wants the same item set in more than one delivery format at once.
 
 It does not apply to writing or improving items. Send that work to asesmen_kurikulum_merdeka for design and to the item review skill for validation; convert only after the set is final.

@@ -1,5 +1,5 @@
 name: "asesmen_kurikulum_merdeka"
 title: "Asesmen Kurikulum Merdeka"
-description: "Design complete Indonesian Kurikulum Merdeka assessment packages for PAUD and Fase A-F: clarification gate before item writing, CP-TP kisi-kisi, Pusmendik/TKA item formats (PG, PGK MCMA, PGK Kategori, Benar/Salah, matching, short answer, essay, observation), functional stimulus and visuals, Bloom LOTS/MOTS/HOTS combined with SOLO, dynamic scoring, KKTP rubrics, remedial and enrichment follow-up using Mastery Learning, a mandatory quality self-audit, and optional JSON/CSV export for CBT/LMS such as NINEXAM."
+description: "Design complete Indonesian Kurikulum Merdeka assessment packages for PAUD and Fase A-F: clarification gate before item writing, CP-TP kisi-kisi, Pusmendik/TKA item formats (PG, PGK MCMA, PGK Kategori, Benar/Salah, matching, short answer, essay, observation), functional stimulus and visuals, Bloom LOTS/MOTS/HOTS combined with SOLO, dynamic scoring, KKTP rubrics, remedial and enrichment follow-up using Mastery Learning, a mandatory quality self-audit, and optional JSON/CSV export for CBT/LMS platforms."
 category: "Work and knowledge"
 include_in_prompt: true

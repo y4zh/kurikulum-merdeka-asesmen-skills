@@ -13,7 +13,7 @@ The checklists, formulas, and working standards live in [references/kartu-telaah
 
 - The user hands over existing items, a draft exam, or a question bank and asks for a review, a telaah, a validation, or a quality check.
 - The user supplies trial or class score data (who answered what, or per-item correct counts) and asks for item analysis: difficulty, discrimination, or distractor performance.
-- A package produced with the core asesmen skill needs its second pass before it is used in class or uploaded to a bank soal such as NINEXAM.
+- A package produced with the core asesmen skill needs its second pass before it is used in class or uploaded to a CBT item bank.
 - A teacher wants a second opinion on items from another source before adopting them.
 
 It does not apply to writing items from scratch, building a kisi-kisi, or setting KKTP. Route those back to asesmen_kurikulum_merdeka.

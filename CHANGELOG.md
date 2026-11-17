@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.1 - 2026-11-17
+
+- Seluruh penyebutan nama proyek atau sekolah tertentu dihapus dari deskripsi dan isi skill. Ekosistem ini universal untuk semua sekolah dan platform CBT/LMS, tidak terikat pada satu produk.
+
 ## 1.0.0 - 2026-11-17
 
 Rilis pertama.

@@ -1,6 +1,6 @@
 ---
 name: asesmen-kurikulum-merdeka
-description: "Design complete Indonesian Kurikulum Merdeka assessment packages for PAUD and Fase A-F: clarification gate before item writing, CP-TP kisi-kisi, Pusmendik/TKA item formats (PG, PGK MCMA, PGK Kategori, Benar/Salah, matching, short answer, essay, observation), functional stimulus and visuals, Bloom LOTS/MOTS/HOTS combined with SOLO, dynamic scoring, KKTP rubrics, remedial and enrichment follow-up using Mastery Learning, a mandatory quality self-audit, and optional JSON/CSV export for CBT/LMS such as NINEXAM."
+description: "Design complete Indonesian Kurikulum Merdeka assessment packages for PAUD and Fase A-F: clarification gate before item writing, CP-TP kisi-kisi, Pusmendik/TKA item formats (PG, PGK MCMA, PGK Kategori, Benar/Salah, matching, short answer, essay, observation), functional stimulus and visuals, Bloom LOTS/MOTS/HOTS combined with SOLO, dynamic scoring, KKTP rubrics, remedial and enrichment follow-up using Mastery Learning, a mandatory quality self-audit, and optional JSON/CSV export for CBT/LMS platforms."
 ---
 
 # Asesmen Kurikulum Merdeka
@@ -13,7 +13,7 @@ Source note: this skill was rebuilt in Muse's own format from a Gemini research 
 
 - The user asks for an assessment package (diagnostik, formatif, or sumatif) for PAUD or Fase A-F.
 - The user asks for items in Pusmendik or TKA formats, a CP-TP kisi-kisi matrix, KKTP rubrics, scoring guides, or remedial and enrichment plans.
-- The user asks for a CBT or LMS item-bank export, for example for NINEXAM's bank soal.
+- The user asks for a CBT or LMS item-bank export, for example for a school CBT item bank.
 - The user works with LOTS, MOTS, HOTS, Bloom levels, or the SOLO taxonomy in an Indonesian school context.
 
 Indonesia only. The skill is locked to the Indonesian context: Kurikulum Merdeka, Fase A-F, AKM, TKA, and Ujian Sekolah. It does not apply to foreign tests such as SAT, IELTS, or TOEFL, and not to general trivia quizzes.
