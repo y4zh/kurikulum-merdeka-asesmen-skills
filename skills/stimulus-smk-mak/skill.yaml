@@ -1,5 +1,0 @@
-name: "stimulus_smk_mak"
-title: "Stimulus & Ilustrasi SMK/MAK (Fase E-F)"
-description: "Companion skill to the SMK/MAK assessment skill that designs calibrated stimulus texts and functional visuals for Indonesian Kurikulum Merdeka vocational assessment items in Fase E-F (Kelas X-XII): authentic workplace documents such as SOP excerpts, work drawings (gambar kerja), equipment manuals, nameplates, specification tables, work orders, and industry case studies, safety (K3) as an accurate working context, code-rendered tables, diagrams, and charts, curated images from Wikimedia Commons and official Indonesian sources (BMKG, BPS, BIG) with citation, and precise [SPESIFIKASI ILUSTRASI] boxes when a visual cannot be rendered, where every stimulus must pass the functionality test that the item cannot be answered correctly without reading it."
-category: "Work and knowledge"
-include_in_prompt: false
