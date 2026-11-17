@@ -1,5 +1,0 @@
-name: "modul_ajar_kurikulum_merdeka"
-title: "Modul Ajar Kurikulum Merdeka"
-description: "Design Indonesian Kurikulum Merdeka teaching modules (modul ajar) for PAUD and Fase A-F: derive Tujuan Pembelajaran (TP) and Alur Tujuan Pembelajaran (ATP) from Capaian Pembelajaran (CP), plan deep learning experiences in the Memahami, Mengaplikasi, and Merefleksi stages mapped to SOLO levels, target the 8 Dimensi Profil Lulusan, build differentiated LKPD and formative checkpoints, turn assessment follow-up bands into concrete classroom intervention scenarios, and hand a clean TP list to the asesmen_kurikulum_merdeka skill for item writing."
-category: "Work and knowledge"
-include_in_prompt: true
