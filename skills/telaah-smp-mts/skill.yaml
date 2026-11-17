@@ -1,0 +1,5 @@
+name: "telaah_smp_mts"
+title: "Telaah & Validasi Butir Soal SMP/MTs"
+description: "Independent second-pass review of Kurikulum Merdeka test items for SMP/MTs (Fase D, Kelas VII-IX) written by anyone (AI, a teacher, or an MGMP team): qualitative review with the Pusmendik review card (Materi, Konstruksi, Bahasa codes for PG/PGK and Uraian), a verdict per item (accept, revise, or reject with reasons), distractor surgery that rewrites failed options from named Fase D student misconceptions, quantitative item analysis when trial scores are supplied (difficulty index P, discrimination index D with top and bottom 27 percent groups, distractor effectiveness at the 5 percent criterion), and the key-distribution check inherited from the asesmen-smp-mts skill."
+category: "Work and knowledge"
+include_in_prompt: false

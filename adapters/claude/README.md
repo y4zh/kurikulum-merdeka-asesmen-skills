@@ -9,7 +9,7 @@ Salin folder skill yang diinginkan ke salah satu lokasi:
 - Per proyek: `<proyek>/.claude/skills/<nama-skill>/`
 - Global untuk semua proyek: `~/.claude/skills/<nama-skill>/`
 
-Contoh untuk kelima skill sekaligus:
+Contoh untuk ke-25 skill sekaligus (5 peran × 5 jenjang, sejak versi 2.0.0):
 
 ```bash
 cp -r skills/* ~/.claude/skills/

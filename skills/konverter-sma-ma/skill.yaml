@@ -1,0 +1,5 @@
+name: "konverter_sma_ma"
+title: "Konverter Naskah Ujian & CBT SMA/MA"
+description: "Convert a finished Indonesian Kurikulum Merdeka assessment package for SMA/MA Fase E-F (Kelas 10-12) into ready-to-use administrative and delivery formats without changing its content: one Kartu Soal per item for school administration and supervision files, a print-ready Naskah Ujian with header, instructions, and a five-cell answer sheet layout, and CBT/LMS import files in GIFT, Moodle XML, CSV, and the asesmen-sma-ma JSON schema covering the full TKA format set, preserving the source package's scoring policy exactly (including the dynamic MCMA rule) by treating LMS fraction fields as transport encoding only, with a pre-export validation pass that flags missing keys, wrong option counts, unresolved stimulus references, and leftover placeholders back to the author instead of silently fixing them."
+category: "Work and knowledge"
+include_in_prompt: false

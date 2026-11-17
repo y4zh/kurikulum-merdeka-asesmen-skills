@@ -1,0 +1,5 @@
+name: "stimulus_sd_mi"
+title: "Stimulus & Ilustrasi SD/MI (Fase A-C)"
+description: "Companion skill to the SD/MI assessment skill that designs calibrated stimulus texts and functional visuals for Indonesian Kurikulum Merdeka items at SD/MI only (Fase A-C, Kelas I-VI): oral and picture-based stimulus in Fase A, short paragraphs and labelled pictures in Fase B, simple texts with tables and bar charts in Fase C, AKM contexts (personal, socio-cultural, scientific), Mermaid cycle diagrams and clean SVG charts, curated images from Wikimedia Commons and official Indonesian sources (BMKG, BPS, BIG) with citation, and precise [SPESIFIKASI ILUSTRASI] boxes when a visual cannot be rendered, with every visual passing the functionality test that the item cannot be answered correctly without reading it."
+category: "Work and knowledge"
+include_in_prompt: false

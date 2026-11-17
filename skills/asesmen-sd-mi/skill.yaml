@@ -1,0 +1,5 @@
+name: "asesmen_sd_mi"
+title: "Asesmen SD/MI (Fase A-C)"
+description: "Design complete Indonesian Kurikulum Merdeka assessment packages for SD/MI only (Fase A-C, Kelas I-VI): a clarification gate before item writing, observation and performance assessment without written tests in Fase A, CP-TP kisi-kisi, item formats fitted to primary school (PG with 3 options in Kelas III and 4 options in Kelas IV-VI, PGK MCMA with dynamic scoring, simple PGK Kategori, Benar/Salah, matching, short answer, short essay, observation), functional stimulus and visuals, Bloom LOTS/MOTS/HOTS combined with SOLO, KKTP rubrics, remedial and enrichment follow-up using Mastery Learning, a mandatory quality self-audit, and optional JSON/CSV export for CBT/LMS platforms."
+category: "Work and knowledge"
+include_in_prompt: false

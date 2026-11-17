@@ -11,6 +11,7 @@ Satu sumber kebenaran, empat cara memakai. Isi skill hidup di folder `skills/`; 
 
 Prinsip yang dijaga di semua platform:
 
+- Sejak versi 2.0.0 skill dipecah per jenjang (25 skill: 5 peran × 5 jenjang). Di platform tanpa mekanisme skill (Custom GPT, Gem), instruksi ringkasnya mewajibkan penetapan jenjang di langkah pertama dan memuat tabel parameter per jenjang; berkas Knowledge yang diunggah adalah SKILL.md dan references dari folder jenjang yang relevan.
 - Teks instruksi ringkas (ChatGPT dan Gemini) adalah aturan yang selalu aktif; kedalaman materi tetap di berkas skill dan referensinya. Bila keduanya bertentangan, berkas skill yang menang dan perbedaan itu layak dilaporkan sebagai temuan.
 - Aturan skor tidak berubah antar platform: MCMA sumatif biner 1-0, formatif 2-1-0, tanpa pecahan bebas di naskah; pecahan pada berkas ekspor CBT hanyalah encoding transport.
 - Adapter tidak menambahkan aturan baru. Adapter hanya menerjemahkan cara pemasangan.

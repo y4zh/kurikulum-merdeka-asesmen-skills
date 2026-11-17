@@ -1,0 +1,5 @@
+name: "telaah_sma_ma"
+title: "Telaah & Validasi Butir Soal SMA/MA"
+description: "Independently review Indonesian Kurikulum Merdeka test items for SMA/MA Fase E-F (Kelas 10-12) written by anyone (AI, a teacher, or an MGMP team): qualitative review with the Pusmendik review card (Materi, Konstruksi, and Bahasa codes for 5-option PG/PGK and for Uraian), a verdict per item (accept, revise, or reject with reasons), a HOTS authenticity check that separates genuine analysis from mere difficulty, distractor surgery that rewrites failed options from named Fase E-F student misconceptions, quantitative item analysis when trial scores are supplied (difficulty index P, discrimination index D with top and bottom 27 percent groups, distractor effectiveness at the 5 percent criterion), and the key-distribution check with R = (PG items / 5 options) + 3."
+category: "Work and knowledge"
+include_in_prompt: false

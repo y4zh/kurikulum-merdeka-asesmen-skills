@@ -1,5 +1,15 @@
 # Changelog
 
+## 2.0.0 - 2026-11-17
+
+Restrukturisasi per jenjang. Lima skill gabungan dipecah menjadi 25 skill: lima peran (asesmen, modul ajar, stimulus, telaah, konverter) untuk masing-masing lima jenjang (PAUD & TK/RA, SD/MI Fase A-C, SMP/MTs Fase D, SMA/MA Fase E-F, SMK/MAK Fase E-F). Setiap skill kini hanya memuat aturan jenjangnya sendiri agar aturan antar jenjang tidak tercampur saat dipakai.
+
+- Penamaan baru mengikuti pola `<peran>-<jenjang>`: asesmen-paud-tk, asesmen-sd-mi, asesmen-smp-mts, asesmen-sma-ma, asesmen-smk-mak, dan pola yang sama untuk modul-ajar-, stimulus-, telaah-, dan konverter-.
+- Isi setiap skill adalah versi tersaring dari skill gabungan 1.1.0 (termasuk seluruh sitasi terverifikasi dokumen primer), ditambah kekhasan jenjangnya: PAUD & TK/RA tanpa tes tulis dengan pelaporan BB/MB/BSH/BSB dan konverter dokumen observasi tanpa ekspor CBT; SD/MI dengan tangga opsi kelas 3 = 3 opsi dan kelas 4-6 = 4 opsi serta Fase A tanpa PG tertulis; SMK/MAK dengan komponen asesmen praktik berubrik kriteria pekerjaan (K3, prosedur, ketepatan hasil, waktu, sikap kerja) dan lembar penilaian praktik pada konverternya.
+- Skill gabungan lama (asesmen-kurikulum-merdeka, modul-ajar-kurikulum-merdeka, stimulus-dan-ilustrasi-asesmen, telaah-validasi-butir-soal, konverter-naskah-ujian-dan-cbt) dihapus dan digantikan oleh ke-25 skill baru.
+- Adapter lintas AI diperbarui ke struktur per jenjang: instruksi ChatGPT dan Gemini kini mewajibkan penetapan jenjang di langkah pertama dan memuat tabel parameter per jenjang; peta nama adapter Muse mengikuti pola garis bawah yang sama.
+- Metadata skill.yaml pada skill baru memakai include_in_prompt: false agar daftar skill yang tampil di prompt tetap ringkas; skill ditemukan lewat pencarian berdasarkan nama jenjang dan perannya.
+
 ## 1.1.0 - 2026-11-17
 
 Pendalaman berbasis verifikasi dokumen primer (Panduan Pembelajaran dan Asesmen Edisi Revisi 2025, Desain Pengembangan Soal AKM 2020, Buletin Asesmen Vol. 1 Tahun 2025, Permendikdasmen No. 1 Tahun 2026, Naskah Akademik Pembelajaran Mendalam).

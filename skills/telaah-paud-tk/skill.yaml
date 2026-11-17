@@ -1,0 +1,5 @@
+name: "telaah_paud_tk"
+title: "Telaah Instrumen PAUD & TK/RA"
+description: "Independently review Indonesian Kurikulum Merdeka PAUD and TK/RA assessment instruments only (Kelompok Bermain, Taman Kanak-Kanak, Raudhatul Athfal): check observation checklists, anecdotal record formats, developmental rating scales, and performance rubrics for alignment of indicators with the PAUD CP elements, clarity of observable behaviour, positive non-labelling language, real-time usability, and activity safety, repair weak indicators through indicator surgery, and give each instrument an accept, revise, or reject verdict with reasons, with no quantitative item analysis because this level has no test items."
+category: "Work and knowledge"
+include_in_prompt: false

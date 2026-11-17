@@ -1,0 +1,5 @@
+name: "konverter_smp_mts"
+title: "Konverter Naskah Ujian & CBT SMP/MTs"
+description: "Convert a finished Kurikulum Merdeka assessment package for SMP/MTs (Fase D, Kelas VII-IX) into ready-to-use administrative and delivery formats without changing its content: one Kartu Soal per item for school administration and supervision files, a print-ready Naskah Ujian with header, instructions, and answer sheet layout, and CBT/LMS import files in GIFT, Moodle XML, CSV, and the asesmen-smp-mts JSON schema with 4-option items, preserving the source package's scoring policy exactly (including the dynamic MCMA rule) by treating LMS fraction fields as transport encoding only, with a pre-export validation pass that flags missing keys, mismatched option counts, unresolved stimulus references, and leftover placeholders back to the author instead of silently fixing them."
+category: "Work and knowledge"
+include_in_prompt: false

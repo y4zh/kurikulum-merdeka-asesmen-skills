@@ -4,20 +4,26 @@ Muse membaca custom skill dari `~/workspace/custom-skills/`. Setiap folder skill
 
 ## Peta nama
 
-| Folder repositori (`skills/`) | Folder Muse (`~/workspace/custom-skills/`) |
+Sejak versi 2.0.0 ada 25 skill dengan pola nama `<peran>-<jenjang>`. Peta namanya mengikuti satu aturan: ganti tanda hubung dengan garis bawah.
+
+| Pola repositori (`skills/`) | Pola Muse (`~/workspace/custom-skills/`) |
 | --- | --- |
-| `asesmen-kurikulum-merdeka` | `asesmen_kurikulum_merdeka` |
-| `modul-ajar-kurikulum-merdeka` | `modul_ajar_kurikulum_merdeka` |
-| `stimulus-dan-ilustrasi-asesmen` | `stimulus_dan_ilustrasi_asesmen` |
-| `telaah-validasi-butir-soal` | `telaah_validasi_butir_soal` |
-| `konverter-naskah-ujian-dan-cbt` | `konverter_naskah_ujian_dan_cbt` |
+| `asesmen-<jenjang>` | `asesmen_<jenjang>` |
+| `modul-ajar-<jenjang>` | `modul_ajar_<jenjang>` |
+| `stimulus-<jenjang>` | `stimulus_<jenjang>` |
+| `telaah-<jenjang>` | `telaah_<jenjang>` |
+| `konverter-<jenjang>` | `konverter_<jenjang>` |
+
+dengan `<jenjang>` salah satu dari: `paud-tk`, `sd-mi`, `smp-mts`, `sma-ma`, `smk-mak` (di Muse: `paud_tk`, `sd_mi`, `smp_mts`, `sma_ma`, `smk_mak`). Contoh: `asesmen-sma-ma` menjadi `asesmen_sma_ma`; `konverter-paud-tk` menjadi `konverter_paud_tk`.
 
 ## Cara pasang
 
-Salin tiap folder ke nama garis bawahnya, contoh untuk skill inti:
+Salin tiap folder ke nama garis bawahnya, contoh untuk satu skill:
 
 ```bash
-cp -r skills/asesmen-kurikulum-merdeka ~/workspace/custom-skills/asesmen_kurikulum_merdeka
+cp -r skills/asesmen-sma-ma ~/workspace/custom-skills/asesmen_sma_ma
 ```
 
-Ulangi untuk keempat skill lain mengikuti tabel di atas, lalu mulai percakapan baru agar skill termuat. Frontmatter Agent Skills di kepala `SKILL.md` versi repositori boleh dibiarkan; Muse membaca metadata dari `skill.yaml`. Bila ingin persis sama dengan pemasangan lokal pemilik repo, hapus blok frontmatter itu setelah menyalin.
+Ulangi untuk skill lain yang diperlukan mengikuti pola di atas, lalu mulai percakapan baru agar skill termuat. Frontmatter Agent Skills di kepala `SKILL.md` versi repositori boleh dibiarkan; Muse membaca metadata dari `skill.yaml`. Bila ingin persis sama dengan pemasangan lokal pemilik repo, hapus blok frontmatter itu setelah menyalin.
+
+Catatan: `skill.yaml` pada skill versi 2.0.0 memakai `include_in_prompt: false`. Skill tidak tampil otomatis di prompt, tetapi tetap ditemukan lewat pencarian skill berdasarkan nama jenjang dan perannya.

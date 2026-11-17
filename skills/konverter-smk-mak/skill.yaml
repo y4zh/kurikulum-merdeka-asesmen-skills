@@ -1,0 +1,5 @@
+name: "konverter_smk_mak"
+title: "Konverter Naskah Ujian & CBT SMK/MAK"
+description: "Convert a finished Kurikulum Merdeka assessment package for SMK/MAK Fase E-F (Kelas X-XII) into ready-to-use administrative and delivery formats without changing its content: one Kartu Soal per written item or practical task for school administration and supervision files, a print-ready Naskah Ujian with header, instructions, and answer sheet layout, a print-ready Lembar Penilaian Praktik (practical assessment sheet) carrying the performance rubric, time record, and observation notes per student, and CBT/LMS import files in GIFT, Moodle XML, CSV, and the SMK/MAK assessment skill's JSON schema with five-option items, preserving the source package's scoring policy exactly (LMS fraction fields are transport encoding only, summative MCMA stays all-or-nothing) and running a pre-export validation pass that flags missing keys, mismatched option counts, unresolved stimulus references, and leftover placeholders back to the author instead of silently fixing them."
+category: "Work and knowledge"
+include_in_prompt: false

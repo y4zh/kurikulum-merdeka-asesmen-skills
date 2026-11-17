@@ -1,0 +1,5 @@
+name: "konverter_sd_mi"
+title: "Konverter Naskah Ujian & CBT SD/MI"
+description: "Convert a finished Kurikulum Merdeka assessment package for SD/MI only (Fase A-C, Kelas I-VI) into ready-to-use administrative and delivery formats without changing its content: one Kartu Soal per item for school administration and supervision files, a print-ready Naskah Ujian with header, child-readable instructions, and answer sheet layout for Fase B-C (Fase A converts to teacher observation sheets instead), and CBT/LMS import files in GIFT, Moodle XML, CSV, and the asesmen-sd-mi JSON schema with the jenjang option counts (3 options in Kelas III, 4 options in Kelas IV-VI), preserving the source package's scoring policy exactly, including the dynamic MCMA rule, by treating LMS fraction fields as transport encoding only, with a pre-export validation pass that flags missing keys, mismatched option counts, unresolved stimulus references, and leftover placeholders back to the author instead of silently fixing them."
+category: "Work and knowledge"
+include_in_prompt: false
