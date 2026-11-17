@@ -1,5 +1,0 @@
-name: "stimulus_sma_ma"
-title: "Stimulus & Ilustrasi SMA/MA (Fase E-F)"
-description: "Design calibrated stimulus texts and functional visuals for Indonesian Kurikulum Merdeka assessment items at SMA/MA Fase E-F (Kelas 10-12): multi-text passages and infographics pitched to TKA reading loads, including the verified 250-300 word and 8-12 word sentence characteristics of the Bahasa Indonesia TKA text, teks informasi and teks fiksi in AKM contexts, data tables, Mermaid diagrams, clean SVG charts and subject diagrams, curated images from Wikimedia Commons and official Indonesian sources (BMKG, BPS, BIG) with citation, and precise [SPESIFIKASI ILUSTRASI] boxes when a visual cannot be rendered, with every visual passing the functionality test that the item cannot be answered correctly without reading it."
-category: "Work and knowledge"
-include_in_prompt: false
