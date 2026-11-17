@@ -1,5 +1,0 @@
-name: "asesmen_smk_mak"
-title: "Asesmen SMK/MAK (Fase E-F)"
-description: "Design complete Indonesian Kurikulum Merdeka assessment packages for SMK/MAK Fase E-F (Kelas X-XII), general and vocational subjects alike: clarification gate before item writing, CP-TP kisi-kisi, five-option Pusmendik/TKA written item formats (PG, PGK MCMA, PGK Kategori, Benar/Salah, matching, short answer, essay) alongside rubric-scored practical and performance assessment built on workplace criteria (safety/K3, procedure sequence, result accuracy, time, work attitude), Teaching Factory and competency-test readiness contexts, portfolio evidence, dynamic scoring, KKTP rubrics, remedial and enrichment follow-up using Mastery Learning, a mandatory quality self-audit with the key-distribution check, and optional JSON/CSV export for CBT/LMS platforms."
-category: "Work and knowledge"
-include_in_prompt: false
