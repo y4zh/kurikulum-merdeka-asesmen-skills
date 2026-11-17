@@ -1,5 +1,0 @@
-name: "asesmen_sma_ma"
-title: "Asesmen SMA/MA (Fase E-F)"
-description: "Design complete Indonesian Kurikulum Merdeka assessment packages for SMA/MA Fase E-F (Kelas 10-12): clarification gate before item writing, CP-TP kisi-kisi, the full TKA item format set with 5-option PG (PG, PGK MCMA, PGK Kategori, Benar/Salah, matching, short answer, essay), functional stimulus, Bloom LOTS/MOTS/HOTS at the 20:50:30 Fase E-F split combined with SOLO, dynamic MCMA scoring, KKTP rubrics, remedial and enrichment follow-up using Mastery Learning, a mandatory quality self-audit, and optional JSON/CSV export for CBT/LMS platforms."
-category: "Work and knowledge"
-include_in_prompt: false
