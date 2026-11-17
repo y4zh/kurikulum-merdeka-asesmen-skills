@@ -1,6 +1,6 @@
 # KKTP, SOLO, dan Tindak Lanjut
 
-Reference for the asesmen_kurikulum_merdeka skill: cognitive mapping, dynamic scoring, KKTP approaches, grade processing, and remedial or enrichment follow-up. Note on sources: its regulatory claims have not been independently verified against the official documents.
+Reference for the asesmen_kurikulum_merdeka skill: cognitive mapping, dynamic scoring, KKTP approaches, grade processing, and remedial or enrichment follow-up. Verification status: the KKTP, grade-processing, follow-up, and SOLO claims below were checked against PPA Edisi Revisi 2025 and the Naskah Akademik Pembelajaran Mendalam and carry page citations; the AKM distributions were checked against Desain Pengembangan Soal AKM 2020. The dynamic MCMA scoring rule in section 4 is a practice rule from earlier item-writing guidance, not a PPA or TKA quotation.
 
 ## 1. Cognitive levels: LOTS, MOTS, HOTS
 
@@ -8,7 +8,8 @@ Reference for the asesmen_kurikulum_merdeka skill: cognitive mapping, dynamic sc
 - MOTS: C3 Menerapkan.
 - HOTS: C4 Menganalisis, C5 Mengevaluasi, C6 Mencipta.
 - AKM and TKA use parallel ladders. Literasi: L1 Access and Retrieve, L2 Interpret and Integrate, L3 Evaluate and Reflect. Numerasi: Knowing, Applying, Reasoning.
-- Default distributions per jenjang (PG items): SD 30:50:20, SMP 25:50:25, SMA and SMK 20:50:30 for LOTS:MOTS:HOTS.
+- Verified AKM distributions (Desain Pengembangan Soal AKM 2020). Numerasi, by cognitive level (printed p. 87): Kelas 5 Knowing 30 / Applying 50 / Reasoning 20; Kelas 8 Knowing 25 / Applying 50 / Reasoning 25; Kelas 11 Knowing 20 / Applying 50 / Reasoning 30. Literasi Membaca (printed p. 20): Menemukan Informasi 50/40/30, Memahami 40/40/40, Mengevaluasi dan Merefleksi 10/20/30, for Kelas 5 / Kelas 8 / Kelas 11 respectively.
+- Default distributions per jenjang (PG items): SD 30:50:20, SMP 25:50:25, SMA and SMK 20:50:30 for LOTS:MOTS:HOTS. These package defaults are derived from the verified AKM Numerasi distribution above; they are school package design defaults, not AKM quotas.
 
 ## 2. SOLO taxonomy
 
@@ -18,17 +19,19 @@ Five levels of response quality:
 - Unistruktural: one relevant aspect only.
 - Multistruktural: several relevant aspects, not yet connected.
 - Relasional: aspects integrated into one coherent understanding.
-- Extended Abstract: the understanding is generalized and applied to a new context.
+- Berpikir Abstrak yang Mendalam: the understanding is generalized and applied to a new context. This is the fifth-level term used by the Naskah Akademik Pembelajaran Mendalam (pp. 44-45); "Extended Abstract" is Biggs & Collis's original English term for the same level, not the Naskah Akademik's wording.
 
-Bloom tags the item; SOLO grades the response. Use SOLO for URN essay rubrics and for KKTP descriptors. Working map between them: C1-C2 sit at Unistruktural, C3 at Multistruktural, C4 at Relasional, C5-C6 at Extended Abstract.
+Bloom tags the item; SOLO grades the response. Use SOLO for URN essay rubrics and for KKTP descriptors. Working map between them: C1-C2 sit at Unistruktural, C3 at Multistruktural, C4 at Relasional, C5-C6 at Berpikir Abstrak yang Mendalam.
+
+The Naskah Akademik also maps the levels onto the deep-learning experience stages (Tabel 3.1, pp. 44-45): Memahami covers Unistruktural and Multistruktural together; Mengaplikasi is Relasional; Merefleksi is Berpikir Abstrak yang Mendalam. Prastruktural has no stage: it is the status "Belum Memahami", before the Memahami stage begins.
 
 ## 3. Four KKTP approaches
 
-KKTP is set per subject and is descriptive in principle; it is not a single uniform pass mark like the old KKM.
+KKTP is set per subject and is descriptive in principle; it is not a single uniform pass mark like the old KKM (PPA Edisi Revisi 2025, p. 64: the criterion is a sentence describing mastery, not a number). The PPA names four approaches (p. 48) and its list is open: "di antaranya ... atau pendekatan lainnya", so a school may use another approach its context needs.
 
-1. Deskripsi Kriteria: qualitative bands Perlu Bimbingan, Cukup, Baik, Sangat Baik, each with a descriptor of which indicators are mastered. Against SOLO: Perlu Bimbingan matches Prastruktural to Unistruktural, Cukup matches Multistruktural, Baik matches Relasional, Sangat Baik matches Extended Abstract.
+1. Deskripsi Kriteria: qualitative bands Perlu bimbingan, Cukup, Baik, Sangat baik (the PPA's exact labels, p. 64), each with a descriptor of which indicators are mastered. Against SOLO: Perlu bimbingan matches Prastruktural to Unistruktural, Cukup matches Multistruktural, Baik matches Relasional, Sangat baik matches Berpikir Abstrak yang Mendalam.
 2. Rubrik: mastery stages per aspect, for example Mulai Memahami, Memahami, Sangat Memahami, or Belum Berkembang, Layak, Cakap, Mahir.
-3. Interval Nilai: bands 0-20, 21-40, 41-60, 61-80, 81-100. A school may also agree a binary split such as 0-55 not yet complete and 56-100 complete.
+3. Skala atau Interval Nilai (the PPA's name for this approach, p. 48): bands 0-20, 21-40, 41-60, 61-80, 81-100 (PPA, pp. 52-53). A school may also agree a binary split such as 0-55 not yet complete and 56-100 complete (PPA worked example, p. 63).
 4. Persentase: the share of TP indicators mastered, for example 75 percent when 3 of 4 indicators are met.
 
 ## 4. Dynamic scoring per format
@@ -44,33 +47,34 @@ KKTP is set per subject and is descriptive in principle; it is not a single unif
 
 ## 5. Grade processing
 
-Three accepted ways to combine TP results for a report grade:
+Three accepted ways to combine TP results for a report grade (PPA Edisi Revisi 2025, pp. 64 and 66):
 
 - Pembobotan (weighting) and Persentase when TP are progressive or interrelated.
 - Rata-rata (average) when TP are independent of each other.
+- When a TP chain is one continuous prerequisite progression, the PPA also allows taking the final TP score alone, because it already represents the prerequisites (p. 63).
 
 ## 6. Follow-up matrix
 
-By interval band (source attributes this matrix to PPA 2025):
+By interval band (PPA Edisi Revisi 2025, pp. 52-53):
 
 - 0-20, not yet: dialogue with the teacher, then remedial relearning of all criteria.
 - 21-40, not yet: remedial relearning of most criteria.
 - 41-60, almost: remedial relearning of only the criteria still needed.
-- 61-80, achieved: continue to the next TP, no remedial and no enrichment.
-- 81-100, achieved and above target: enrichment or challenge tasks.
+- 61-80, achieved: the table cell reads only "Sudah mencapai tujuan pembelajaran". The PPA's worked example (p. 53) continues the student to the next TP without enrichment; quote the band that way, not as a table cell that says "no remedial and no enrichment".
+- 81-100, achieved and above target: enrichment or challenge tasks ("perlu tantangan lebih (pengayaan)").
 
-By descriptive band:
+By descriptive band (PPA, p. 64):
 
-- Perlu Bimbingan: intensive reinforcement.
+- Perlu bimbingan: intensive reinforcement.
 - Cukup: strengthen the unmastered aspects before new material.
 - Baik: ready for the next TP.
-- Sangat Baik: next TP, plus peer tutoring or an extra challenge.
+- Sangat baik: next TP, plus peer tutoring or an extra challenge.
 
 Remedial delivery modes: individual guidance when few students struggle with varied difficulties; group guidance when the difficulty is uniform; whole-class reteaching when most of the class failed; peer tutoring. Differentiate by content, process, and product.
 
 ## 7. Post-remedial grades: the chosen principle
 
-PPA 2025 sets no standard formula, so the choice is school policy. This skill applies the following principle:
+PPA 2025 sets no standard formula for post-remedial grades. This is a verified absence: the word "remedial" appears only five times in the whole PPA, and its only statement on the point is that the aim of remedial is raising the student's achievement through guided relearning of the unmet criteria, not merely repairing the grade (p. 54). The choice below is therefore school policy. This skill applies the following principle:
 
 - Prinsip 1, Mastery Learning (applied): the recorded grade is the highest score achieved after remedial. Fairness condition: students who passed on the first attempt receive an equal opportunity to improve.
 - Prinsip 2 (listed, not applied): cap the post-remedial grade at the KKTP pass threshold.

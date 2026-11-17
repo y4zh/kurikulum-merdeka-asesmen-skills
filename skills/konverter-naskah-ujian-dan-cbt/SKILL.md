@@ -60,7 +60,7 @@ Run this pass before writing any output file, and report the result with the del
 
 - Every objectively scored item has exactly the key its format requires: one key for PG, a defined key set for MCMA, a category key per statement for PGK Kategori.
 - Every Uraian item has its scoring guide or rubric attached; a URN rubric starts at 0.
-- Option counts match the jenjang defaults from the core skill: 4 options (A-D) for SD and SMP, 5 options (A-E) for SMA and SMK, unless the source package states a deliberate deviation.
+- Option counts match the core skill's package design defaults: 4 options (A-D) for SD and SMP, 5 options (A-E) for SMA and SMK, unless the source package states a deliberate deviation. (These are the core skill's package defaults, aligned with the Desain AKM 2020 ladder for Kelas 4-12; Kelas 1-3 packages use 3 options, A-C.)
 - Every stimulus_id or stimulus reference in an item resolves to a stimulus that exists in the set, and every stimulus is used by at least one item.
 - Item numbering is continuous, and the item count matches the identity data and the kisi-kisi.
 - No leftover placeholders anywhere: no bracketed tokens such as [Nama Sekolah] in a file meant for direct use, no empty option, stem, or pembahasan fields. Placeholders are acceptable only in a template the user explicitly asked for.

@@ -32,7 +32,7 @@ Ekosistem yang sama dapat dipasang di Claude, ChatGPT, Gemini, dan Muse. Mekanis
 
 Alur kerja skill mengacu pada dokumen berikut, sebagaimana dihimpun dalam riset penyusunannya: Panduan Pembelajaran dan Asesmen Edisi Revisi 2025; Permendikdasmen No. 10/2025 (SKL); No. 12/2025 (Standar Isi); No. 13/2025 dan SK Kepala BSKAP No. 046/H/KR/2025 (CP); No. 1/2026 (Standar Proses); No. 9/2025 dan No. 9/2026 (TKA dan AN); kaidah penulisan soal Pusmendik dan desain AKM.
 
-**Penafian:** sitasi regulasi dalam repo ini berasal dari riset berbantuan AI dan belum diverifikasi baris per baris ke dokumen resmi Kemendikdasmen. Angka kalibrasi wacana di skill stimulus adalah default praktis penyusun, bukan kutipan aturan resmi. Untuk keputusan resmi di sekolah, periksa selalu dokumen aslinya.
+**Catatan sumber:** klaim kerangka utama dalam repo ini telah diverifikasi terhadap dokumen primer: Panduan Pembelajaran dan Asesmen Edisi Revisi 2025, Desain Pengembangan Soal AKM 2020, Buletin Asesmen Vol. 1 Tahun 2025, Permendikdasmen No. 1 Tahun 2026 tentang Standar Proses, dan Naskah Akademik Pembelajaran Mendalam. Status verifikasi per klaim dicatat di berkas referensi masing-masing skill. Beberapa hal tetap bukan kutipan regulasi: aturan skor dinamis PGK MCMA adalah kaidah praktik dari pedoman penulisan soal terdahulu (penskoran TKA terpusat memakai IRT), dan angka kalibrasi wacana di luar mata uji Bahasa Indonesia TKA adalah default praktis penyusun. Untuk keputusan resmi di sekolah, periksa selalu dokumen aslinya.
 
 ## Struktur repo
 

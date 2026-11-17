@@ -7,7 +7,7 @@ description: "Design complete Indonesian Kurikulum Merdeka assessment packages f
 
 Skill for designing assessment packages and test items for Indonesian schools under Kurikulum Merdeka (Kemendikdasmen), from PAUD through Fase A-F (SD, SMP, SMA, SMK). It produces a complete package, not loose questions: identity, kisi-kisi, stimulus and items, answer key and scoring guide, KKTP rubric, remedial and enrichment follow-up, and a quality audit.
 
-Note on sources: the regulatory citations named in this skill have not been independently verified against the official Kemendikdasmen documents. Before using a package for a high-stakes exam, check the cited rule in the official document. Details live in [references/regulasi-dan-format-soal.md](references/regulasi-dan-format-soal.md) and [references/kktp-solo-dan-tindak-lanjut.md](references/kktp-solo-dan-tindak-lanjut.md).
+Verification status: the core framework claims in this skill have been checked against the primary documents: PPA Edisi Revisi 2025, Desain Pengembangan Soal AKM 2020, Buletin Asesmen Vol-1 2025, Permendikdasmen No. 1 Tahun 2026, and Naskah Akademik Pembelajaran Mendalam. The per-claim status and page citations live in the reference files. One rule is deliberately not a regulation quote: the dynamic MCMA scoring rule (binary 1-0 for sumatif, partial 2-1-0 for formatif and diagnostik) is a practice rule carried from earlier item-writing guidance, not a quotation of the PPA or of the TKA technical guidance; TKA scoring itself is centralized and uses IRT. Before using a package for a high-stakes exam, check any rule you rely on in the official document. Details live in [references/regulasi-dan-format-soal.md](references/regulasi-dan-format-soal.md) and [references/kktp-solo-dan-tindak-lanjut.md](references/kktp-solo-dan-tindak-lanjut.md).
 
 ## When this skill applies
 
@@ -26,16 +26,21 @@ If the request is brief (a subject and a topic, nothing more), stop and ask befo
 2. Jenis asesmen: diagnostik, formatif, or sumatif, and whether the result feeds a report card.
 3. Composition: how many items of each format, or confirmation to use the defaults below.
 4. Cognitive target: the default LOTS:MOTS:HOTS split for the jenjang, or a custom split.
-5. KKTP approach: Deskripsi Kriteria, Rubrik, Interval Nilai, or Persentase.
+5. KKTP approach: Deskripsi Kriteria, Rubrik, Skala atau Interval Nilai, or Persentase (the four approaches named in PPA Edisi Revisi 2025, p. 48; the PPA list is open, so another approach is allowed).
 6. Whether a JSON or CSV export is needed.
 
 Skip the gate when the request already specifies these points, or when the user says to proceed with standard settings. In that case state the defaults you used at the top of the package.
 
 ## Step 2: Defaults per jenjang
 
+Reference ladder for PG option counts (Desain Pengembangan Soal AKM 2020, printed p. 4): Kelas 1-3 use 3 options (A-C), Kelas 4-9 use 4 options (A-D), Kelas 10-12 use 5 options (A-E). PG in TKA for SMA/MA/Sederajat and SMK/MAK also uses 5 options (Buletin Asesmen Vol-1 2025, p. 12).
+
+Package defaults of this skill (school package design defaults, aligned with the Kelas 4-12 part of that ladder; they are not AKM or TKA quotas):
+
 - SD (Fase B-C): multiple choice has 4 options (A-D). LOTS:MOTS:HOTS = 30:50:20.
 - SMP (Fase D): 4 options (A-D). Split 25:50:25.
 - SMA and SMK (Fase E-F): 5 options (A-E). Split 20:50:30.
+- The LOTS:MOTS:HOTS splits are derived from the verified AKM Numerasi cognitive distribution (Knowing/Applying/Reasoning: Kelas 5 = 30/50/20, Kelas 8 = 25/50/25, Kelas 11 = 20/50/30; Desain Pengembangan Soal AKM 2020, printed p. 87).
 - PAUD and Fase A (Kelas I-II): no written multiple-choice formative test. Use observation, performance, or play, with oral or visual stimulus that is concrete and close to the child's own experience.
 
 Write in standard Indonesian (EYD V), communicative and unambiguous. In the kisi-kisi, each multiple-choice item measures one operational verb (KKO); an essay item may measure more than one.
@@ -44,17 +49,17 @@ Write in standard Indonesian (EYD V), communicative and unambiguous. In the kisi
 
 Every item that carries a stimulus must need it. A graphic, map, table, or photo passes only if the item cannot be answered correctly without reading it; decoration fails the audit.
 
-- Group items under a stimulus in small sets (the TKA pattern is 2-6 items per stimulus), with cognitive levels graded inside the set.
+- Group items under a stimulus in small sets (the TKA pattern is 2-6 items per stimulus, Buletin Asesmen Vol-1 2025, p. 11), with cognitive levels graded inside the set.
 - Prefer visuals rendered in code when the data is structured: Markdown tables, Mermaid diagrams for flows and cycles, simple charts.
 - Use a real internet image only when the context needs a real photo, map, or phenomenon and an image search tool is available. Wikimedia is the preferred source; the image must match the context exactly.
 - When a visual is too complex to render and no suitable image exists, write a [SPESIFIKASI ILUSTRASI] box instead: visual type, the numbers it must show, axis labels, legend, and key objects, precise enough for a teacher or illustrator to draw it.
-- Never leak the formula an item is testing into its stimulus, especially in numeracy and science items.
+- As a writing-practice rule, never leak the formula an item is testing into its stimulus, especially in numeracy and science items; the item then measures copying instead of reasoning. This is a practice consideration of this skill, not an AKM regulation.
 
 Gradation across phases and the per-format construction rules are in [references/regulasi-dan-format-soal.md](references/regulasi-dan-format-soal.md).
 
 ## Step 4: Item formats and scoring
 
-Supported formats: PG (single answer), PGK MCMA (multiple correct answers, checkbox), PGK Kategori (several statements, each judged in a binary category), Benar/Salah, Menjodohkan, Isian or Jawaban Singkat, Uraian, and Observasi or Unjuk Kerja for non-test assessment.
+Supported formats: PG (single answer), PGK MCMA (multiple correct answers, checkbox), PGK Kategori (several statements, each judged in a binary category), Benar/Salah, Menjodohkan, Isian or Jawaban Singkat, Uraian, and Observasi or Unjuk Kerja for non-test assessment. Whichever format is chosen, the technique and instrument must stay aligned with the tujuan pembelajaran (Permendikdasmen No. 1 Tahun 2026, Pasal 8).
 
 Scoring rules that must not be improvised:
 
@@ -68,11 +73,11 @@ Full construction rules per format are in the first reference file; the scoring 
 
 ## Step 5: Cognitive levels, KKTP, and follow-up
 
-Tag every item twice: a Bloom level (C1-C6, grouped as LOTS = C1-C2, MOTS = C3, HOTS = C4-C6) and, for essays and KKTP descriptions, a SOLO level (Prastruktural, Unistruktural, Multistruktural, Relasional, Extended Abstract). The working map is C1-C2 to Unistruktural, C3 to Multistruktural, C4 to Relasional, C5-C6 to Extended Abstract.
+Tag every item twice: a Bloom level (C1-C6, grouped as LOTS = C1-C2, MOTS = C3, HOTS = C4-C6) and, for essays and KKTP descriptions, a SOLO level (Prastruktural, Unistruktural, Multistruktural, Relasional, Berpikir Abstrak yang Mendalam). Berpikir Abstrak yang Mendalam is the term the Naskah Akademik Pembelajaran Mendalam uses for the fifth SOLO level (pp. 44-45); "Extended Abstract" is Biggs & Collis's original English term for the same level. The working map is C1-C2 to Unistruktural, C3 to Multistruktural, C4 to Relasional, C5-C6 to Berpikir Abstrak yang Mendalam.
 
-KKTP is descriptive, not one uniform passing number like the old KKM. Use the approach chosen at the gate: Deskripsi Kriteria (Perlu Bimbingan, Cukup, Baik, Sangat Baik), Rubrik, Interval Nilai, or Persentase of TP indicators mastered.
+KKTP is descriptive, not one uniform passing number like the old KKM (PPA Edisi Revisi 2025, p. 64). Use the approach chosen at the gate: Deskripsi Kriteria (Perlu bimbingan, Cukup, Baik, Sangat baik, the PPA's labels, p. 64), Rubrik, Skala atau Interval Nilai, or Persentase of TP indicators mastered.
 
-Post-remedial grades follow Prinsip 1, Mastery Learning, the principle this skill adopts: the recorded grade is the highest score the student achieves after remedial. Fairness condition: students who already passed must get an equal chance to improve their score too. Note in the package that the official guidance sets no standard post-remedial formula, so this is school policy, not a regulation quote.
+Post-remedial grades follow Prinsip 1, Mastery Learning, the principle this skill adopts: the recorded grade is the highest score the student achieves after remedial. Fairness condition: students who already passed must get an equal chance to improve their score too. The PPA sets no post-remedial grade formula at all: the word "remedial" appears only five times in the whole PPA, and its stated aim for remedial is raising achievement through guided relearning of the unmet criteria, not merely repairing the grade (p. 54). Prinsip 1 is therefore school policy, not a regulation quote, and the package must label it as such.
 
 Hard rule: diagnostik and formatif results never determine report grades, promotion, or graduation.
 
@@ -109,4 +114,4 @@ Run the audit before delivering, and print its result as part 7 of the package:
 - Do not use formatif or diagnostik results for report grades or promotion decisions.
 - Do not place the tested formula inside a numeracy or science stimulus.
 - Do not start a URN rubric at 1. The minimum is 0.
-- Do not present the regulatory citations in this skill as verified law. Flag any rule the user plans to rely on for verification against the official Kemendikdasmen document.
+- Do not present rules beyond their verified status. The framework claims carry page citations in the reference files; the MCMA dynamic scoring rule, the per-jenjang package defaults, and the stimulus length defaults are practice rules or school-package design defaults and must never be presented as regulation.

@@ -7,7 +7,7 @@ description: "Companion skill to asesmen_kurikulum_merdeka that designs calibrat
 
 Companion skill to asesmen_kurikulum_merdeka. That skill assembles the assessment package; this one supplies its raw material: the stimulus texts students read and the visuals they must interpret. A weak stimulus caps every item built on it, so stimulus work comes before item writing, not after.
 
-Note on sources: the regulatory citations and calibration figures in this skill have not been independently verified against official Kemendikdasmen documents. In particular, the stimulus lengths in the reference file are practical defaults for calibration, not official rules: current official documents set no word limits for most phases. Templates, source lists, and the specification format live in [references/panduan-visual-dan-wacana.md](references/panduan-visual-dan-wacana.md).
+Note on sources: the stimulus lengths in the reference file are practical defaults for calibration, not official rules, with one precisely scoped exception: a passage of 250-300 words and sentences of 8-12 words are the verified text characteristics for the Bahasa Indonesia test subject in TKA SMA/MA/Sederajat and SMK/MAK (Buletin Asesmen Vol-1 2025, p. 12), and for that subject and test only. Current official documents set no word limits for other phases or subjects. Templates, source lists, and the specification format live in [references/panduan-visual-dan-wacana.md](references/panduan-visual-dan-wacana.md).
 
 ## When this skill applies
 
@@ -30,13 +30,13 @@ Every visual and every stimulus must pass one test before it ships: cover it up.
 
 Standalone mode: the user asks only for stimulus material. Deliver the calibrated text or visual, its source or data note, and the list of key objects, then stop. Do not invent the items that will use it unless asked.
 
-Invoked mode: asesmen_kurikulum_merdeka calls this skill after the kisi-kisi exists and before items are written. In this mode the input is the kisi-kisi rows (indicator, KKO, target Bloom and SOLO level, phase) and the output is one stimulus per item group, sized and pitched so the target level is reachable: a Relasional item needs a stimulus with parts that must be connected, and an Extended Abstract item needs one that supports transfer to a new case. Return the stimulus set to the parent workflow; item construction stays there.
+Invoked mode: asesmen_kurikulum_merdeka calls this skill after the kisi-kisi exists and before items are written. In this mode the input is the kisi-kisi rows (indicator, KKO, target Bloom and SOLO level, phase) and the output is one stimulus per item group, sized and pitched so the target level is reachable: a Relasional item needs a stimulus with parts that must be connected, and a Berpikir Abstrak yang Mendalam item needs one that supports transfer to a new case. Return the stimulus set to the parent workflow; item construction stays there.
 
 ## Calibrate the text to the phase
 
 Use the calibration matrix in the reference file as practical house defaults: sentence length, passage length, text types, and visual complexity per phase, from oral and concrete in PAUD and Fase A to multi-text and infographic work in Fase E-F (Kelas X-XII). Treat the numbers as a starting calibration to adjust for the actual class, never quote them to a user as Kemendikdasmen rules.
 
-Write in standard Indonesian (EYD V). Contexts should be realistic and Indonesian: disaster mitigation, local markets and prices, weather and seasons, school and village life, national statistics. One stimulus serves one item or a small graded set (the TKA pattern is 2-6 items); do not stretch one passage across a whole exam.
+Write in standard Indonesian (EYD V). Contexts should be realistic and Indonesian: disaster mitigation, local markets and prices, weather and seasons, school and village life, national statistics. One stimulus serves one item or a small graded set (in TKA, one stimulus serves 2-6 items, Buletin Asesmen Vol-1 2025, p. 11); do not stretch one passage across a whole exam.
 
 ## Produce visuals in this order
 
@@ -64,7 +64,7 @@ Never present invented numbers as real statistics. When a chart or table uses pl
 ## Gotchas
 
 - Decoration fails. A stock photo of a volcano next to a recall question about volcano parts adds nothing the item measures; cut it or rebuild the item so the answer lives in the image.
-- Do not leak the tested formula into the stimulus. A numeracy or physics item whose stimulus prints the formula it tests measures copying, not reasoning.
+- Do not leak the tested formula into the stimulus. A numeracy or physics item whose stimulus prints the formula it tests measures copying, not reasoning. This is a practice rule of this skill; no such prohibition appears in the Desain Pengembangan Soal AKM 2020, so never cite it as an official rule.
 - Do not ship the templates from the reference file unchanged with their example numbers. Adapt the data to the item, then re-check that the key objects and the answer still agree.
 - Do not stretch calibration defaults into fake authority. If a teacher asks where a word limit comes from, the honest answer is that it is this skill's practical default, not a regulation.
 - Do not use an internet image without its source line, and do not use one whose licence or origin is unclear when an open source (Wikimedia Commons, BMKG, BPS, BIG) can supply an alternative.

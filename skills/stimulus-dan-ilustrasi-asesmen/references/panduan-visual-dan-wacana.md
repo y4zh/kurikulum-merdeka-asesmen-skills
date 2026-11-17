@@ -2,7 +2,7 @@
 
 Reference for the stimulus_dan_ilustrasi_asesmen skill: phase calibration, ready-to-adapt visual templates, curated sources, and the illustration specification format.
 
-Note on sources: the regulatory citations in this file have not been independently verified against official Kemendikdasmen documents. Two calibration choices apply throughout: the length figures below are practical defaults, not official rules, and the SVG template's namespace is written clean, with no markup corruption.
+Note on sources: the length figures below are practical defaults, not official rules, with one precisely scoped exception: the Fase E-F passage and sentence figures are verified for the Bahasa Indonesia test subject in TKA SMA/MA/Sederajat and SMK/MAK (Buletin Asesmen Vol-1 2025, p. 12), as section 1 explains. The SVG template's namespace is written clean, with no markup corruption.
 
 ## 1. Calibration matrix: practical house defaults, not official rules
 
@@ -13,9 +13,9 @@ The 2025 Kemendikdasmen documents set no official word-count or sentence-length 
 | PAUD and Fase A (SD Kelas I-II) | About 3-7 words | Oral, or 1-3 short sentences | Single simple sentences, concrete vocabulary from the child's daily life, large clear pictures do the heavy lifting |
 | Fase B-C (SD Kelas III-VI) | About 6-10 words | Around 100 words | Simple information texts and children's fiction, basic time and cause conjunctions, tables of 2-3 columns, labelled pictures |
 | Fase D (SMP Kelas VII-IX) | About 7-11 words | Around 150-250 words | Information texts (procedure, concept, fact) and mid-level fiction, bar and line charts, cycle diagrams |
-| Fase E-F (SMA/SMK Kelas X-XII) | About 8-12 words | 250-300 words single text, up to 700 words for multi-text with infographic | Complex sentences, contrast and cause-effect conjunctions across paragraphs, multi-text sets, infographics |
+| Fase E-F (SMA/SMK Kelas X-XII) | About 8-12 words (verified only for the TKA Bahasa Indonesia test subject) | 250-300 words for the TKA Bahasa Indonesia test subject (verified scope); the same range is this skill's practical default for other subjects; up to 700 words for multi-text with infographic (source-reported) | Complex sentences, contrast and cause-effect conjunctions across paragraphs, multi-text sets, infographics |
 
-The Fase E-F passage figure is the one number in this table reported in an official-adjacent document (ANBK Kelas XI reporting, with the sentence figure attributed to Buletin Asesmen Vol-1 2025). Treat even that as reported, not verified. The SD and SMP figures are this skill's own calibration defaults with no official source.
+Verified scope, stated precisely: the 250-300 word passage length and the 8-12 word sentence length are the text characteristics for the Bahasa Indonesia test subject in TKA SMA/MA/Sederajat and SMK/MAK (Buletin Asesmen Vol-1 2025, p. 12). They bind that subject and that test, nothing else; do not quote them as a general Fase E-F or cross-subject rule. The up-to-700-words multi-text figure is source-reported from ANBK Kelas XI reporting. Every other figure in this table is this skill's own calibration default with no official source.
 
 ## 2. Mermaid template: cycle diagram
 
