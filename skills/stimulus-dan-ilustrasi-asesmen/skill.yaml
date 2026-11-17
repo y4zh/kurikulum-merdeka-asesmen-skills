@@ -1,0 +1,5 @@
+name: "stimulus_dan_ilustrasi_asesmen"
+title: "Stimulus dan Ilustrasi Asesmen"
+description: "Companion skill to asesmen_kurikulum_merdeka that designs calibrated stimulus texts and functional visuals for Indonesian Kurikulum Merdeka assessment items: phase-calibrated reading passages, data tables, Mermaid diagrams, clean SVG charts and subject diagrams, curated images from Wikimedia Commons and official Indonesian sources (BMKG, BPS, BIG) with citation, and precise [SPESIFIKASI ILUSTRASI] boxes when a visual cannot be rendered. Every visual must pass the functionality test: the item cannot be answered correctly without reading it."
+category: "Work and knowledge"
+include_in_prompt: true

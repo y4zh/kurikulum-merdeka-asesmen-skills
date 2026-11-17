@@ -1,0 +1,5 @@
+name: "konverter_naskah_ujian_dan_cbt"
+title: "Konverter Naskah Ujian dan CBT"
+description: "Convert a finished Kurikulum Merdeka assessment package into ready-to-use administrative and delivery formats without changing its content: one Kartu Soal per item for school administration and supervision files, a print-ready Naskah Ujian with header, instructions, and answer sheet layout, and CBT/LMS import files in GIFT, Moodle XML, CSV, and the core asesmen_kurikulum_merdeka JSON schema. The conversion preserves the source package's scoring policy exactly, including the dynamic MCMA rule, by treating LMS fraction fields as transport encoding only, and it runs a pre-export validation pass that flags missing keys, mismatched option counts, unresolved stimulus references, and leftover placeholders back to the author instead of silently fixing them."
+category: "Work and knowledge"
+include_in_prompt: true
