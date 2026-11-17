@@ -1,5 +1,21 @@
 # Changelog
 
+All notable changes to this package are recorded here. The format follows Keep a Changelog, and the versioning is semantic.
+
+## [3.0.0] - 2026-11-17
+
+### Changed
+- The 25 per-role, per-level skills are merged into 5 skills, one per school level: kurikulum-merdeka-paud-tk, kurikulum-merdeka-sd-mi, kurikulum-merdeka-smp-mts, kurikulum-merdeka-sma-ma, kurikulum-merdeka-smk-mak. Each skill now holds the five roles as sections (Modul Ajar, Stimulus, Asesmen, Telaah, Konverter) with a routing table, so a user loads one skill per level instead of five.
+
+### Added
+- Plugin manifests so the repository installs as a real plugin: plugin.json and package.json at the root, plus .claude-plugin, .codex-plugin, .cursor-plugin, .cline-plugin, .kimi-plugin, .agents/plugins, and .omp-plugin manifests, all pointing at skills/.
+- rules/ with the always-on core rules (kurikulum-merdeka.md and the Cursor kurikulum-merdeka.mdc): determine the level first, one skill per level, level parameter table, citation honesty rules.
+- GUIDE.md (installation routes and usage), ROADMAP.md, CONTRIBUTING.md, CODE_OF_CONDUCT.md, and SECURITY.md.
+- Single-file Gemini builds in adapters/gemini/ (one Markdown file per level, skill plus all references), because the Gemini uploader accepts one Markdown skill file but often rejects additional Markdown attachments.
+
+### Removed
+- The 25 separate role-by-level skill folders, replaced by the 5 merged level skills above.
+
 ## 2.0.0 - 2026-11-17
 
 Restrukturisasi per jenjang. Lima skill gabungan dipecah menjadi 25 skill: lima peran (asesmen, modul ajar, stimulus, telaah, konverter) untuk masing-masing lima jenjang (PAUD & TK/RA, SD/MI Fase A-C, SMP/MTs Fase D, SMA/MA Fase E-F, SMK/MAK Fase E-F). Setiap skill kini hanya memuat aturan jenjangnya sendiri agar aturan antar jenjang tidak tercampur saat dipakai.

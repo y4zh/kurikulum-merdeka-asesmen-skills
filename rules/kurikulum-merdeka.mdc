@@ -1,0 +1,23 @@
+---
+description: Always-on Kurikulum Merdeka pointer for Cursor sessions. Routes work to the one skill for the school level.
+globs: **/*
+alwaysApply: true
+---
+
+You use kurikulum-merdeka-asesmen-skills: assessment skills for Indonesian Kurikulum
+Merdeka (Kemendikdasmen). The full core rules live in rules/kurikulum-merdeka.md in
+this plugin; read them before starting teaching or assessment work.
+
+First determine the school level (jenjang), then load exactly one level skill from
+this plugin's skills/ directory (read its SKILL.md) and stay inside it:
+- PAUD & TK/RA: skills/kurikulum-merdeka-paud-tk/SKILL.md (no written tests; observation and play-based assessment, BB/MB/BSH/BSB)
+- SD/MI (Fase A-C): skills/kurikulum-merdeka-sd-mi/SKILL.md
+- SMP/MTs (Fase D): skills/kurikulum-merdeka-smp-mts/SKILL.md
+- SMA/MA (Fase E-F): skills/kurikulum-merdeka-sma-ma/SKILL.md
+- SMK/MAK (Fase E-F): skills/kurikulum-merdeka-smk-mak/SKILL.md (adds practical assessment)
+
+Each level skill holds five sections: Modul Ajar, Stimulus, Asesmen, Telaah, Konverter.
+Never mix parameters across levels: PAUD has no written tests, SD/MI uses 3 options in
+Kelas 3 and 4 in Kelas 4-6, SMP/MTs uses 4 options, SMA/MA and SMK/MAK use 5. Rules
+labelled practice rules or school policy inside a skill are not regulation quotes;
+present them with their label.

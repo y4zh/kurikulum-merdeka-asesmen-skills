@@ -1,0 +1,28 @@
+{
+  "name": "kurikulum-merdeka-asesmen-skills",
+  "version": "3.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Kurikulum Merdeka assessment skills for AI agents: one skill per Indonesian school level.",
+  "license": "MIT",
+  "keywords": [
+    "pi-package"
+  ],
+  "pi": {
+    "skills": [
+      "./skills"
+    ]
+  },
+  "cline": {
+    "plugins": [
+      {
+        "paths": [
+          "./.cline-plugin/plugin.js"
+        ],
+        "capabilities": [
+          "skills"
+        ]
+      }
+    ]
+  }
+}

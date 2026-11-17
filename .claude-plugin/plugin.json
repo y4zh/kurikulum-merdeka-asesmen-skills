@@ -1,0 +1,22 @@
+{
+  "name": "kurikulum-merdeka-asesmen-skills",
+  "displayName": "Kurikulum Merdeka Asesmen Skills",
+  "version": "3.0.0",
+  "description": "Kurikulum Merdeka assessment skills for Indonesian schools: one self-contained skill per school level (PAUD/TK, SD/MI, SMP/MTs, SMA/MA, SMK/MAK), each covering teaching modules, stimulus design, assessment writing, item review, and exam/CBT conversion, grounded in Kemendikdasmen guidance.",
+  "author": {
+    "name": "y4zh"
+  },
+  "repository": "https://github.com/y4zh/kurikulum-merdeka-asesmen-skills",
+  "license": "MIT",
+  "keywords": [
+    "kurikulum-merdeka",
+    "asesmen",
+    "kemendikdasmen",
+    "agent-skills",
+    "education",
+    "indonesia"
+  ],
+  "skills": [
+    "./skills/"
+  ]
+}

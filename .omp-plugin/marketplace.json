@@ -1,0 +1,19 @@
+{
+  "name": "kurikulum-merdeka",
+  "interface": {
+    "displayName": "Kurikulum Merdeka Asesmen Skills"
+  },
+  "plugins": [
+    {
+      "name": "kurikulum-merdeka-asesmen-skills",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE"
+      },
+      "category": "Education"
+    }
+  ]
+}

@@ -1,25 +1,19 @@
-# Adapter Claude
+# Claude adapter
 
-Folder `skills/` di repositori ini sudah dalam format Agent Skills standar: setiap `SKILL.md` memiliki frontmatter `name` dan `description`, dan rujukan mendalam ada di folder `references/` masing-masing skill. Tidak ada berkas tambahan yang perlu dibuat.
+The five skills in [../../skills/](../../skills/) are standard Agent Skills: each
+folder holds a `SKILL.md` with `name` and `description` frontmatter, a `skill.yaml`,
+and a `references/` folder. They load as-is in Claude Code (as a plugin via
+`../../.claude-plugin/plugin.json`, or by copying the folders into a skills
+directory) and in any Agent Skills compatible client.
 
-## Claude Code
+| Skill folder | Level |
+| --- | --- |
+| `kurikulum-merdeka-paud-tk` | PAUD & TK/RA |
+| `kurikulum-merdeka-sd-mi` | SD/MI (Fase A-C) |
+| `kurikulum-merdeka-smp-mts` | SMP/MTs (Fase D) |
+| `kurikulum-merdeka-sma-ma` | SMA/MA (Fase E-F) |
+| `kurikulum-merdeka-smk-mak` | SMK/MAK (Fase E-F) |
 
-Salin folder skill yang diinginkan ke salah satu lokasi:
-
-- Per proyek: `<proyek>/.claude/skills/<nama-skill>/`
-- Global untuk semua proyek: `~/.claude/skills/<nama-skill>/`
-
-Contoh untuk ke-25 skill sekaligus (5 peran × 5 jenjang, sejak versi 2.0.0):
-
-```bash
-cp -r skills/* ~/.claude/skills/
-```
-
-## Claude (aplikasi dan web)
-
-Pada paket yang mendukung pengunggahan skill, unggah folder skill apa adanya (SKILL.md beserta references/). Bila fitur skill tidak tersedia, tempel isi `SKILL.md` skill yang relevan sebagai instruksi proyek dan unggah berkas `references/`-nya sebagai bahan proyek.
-
-## Catatan
-
-- Berkas `skill.yaml` di tiap folder adalah metadata untuk Muse (lihat adapter Muse). Claude mengabaikannya dengan aman.
-- Nama folder memakai tanda hubung (hyphen), sesuai kolom `name` pada frontmatter.
+Each skill is self-contained for its level and holds five sections (Modul Ajar,
+Stimulus, Asesmen, Telaah, Konverter). Load the one skill for the level you are
+working in; do not load two levels at once.

@@ -1,0 +1,5 @@
+name: "kurikulum_merdeka_smk_mak"
+title: "Kurikulum Merdeka SMK/MAK (Fase E-F)"
+description: "One jenjang-locked skill for Indonesian Kurikulum Merdeka vocational schools (SMK/MAK, Fase E-F, Kelas X-XII) combining all five roles: teaching modules that derive TP and ATP from CP with deep-learning stages and jobsheet LKPD, authentic workplace stimulus and functional visuals, assessment packages pairing five-option Pusmendik/TKA written items with rubric-scored practical and performance assessment on workplace criteria (safety/K3, procedure sequence, result accuracy against specification, time, work attitude) with Teaching Factory and portfolio contexts, independent Pusmendik-card review of items and performance rubrics with distractor surgery and quantitative item analysis, and conversion to Kartu Soal, print exam scripts, Lembar Penilaian Praktik, and CBT/LMS exports (GIFT, Moodle XML, CSV, JSON), with descriptive KKTP, dynamic MCMA scoring, Mastery Learning follow-up, and a mandatory quality audit."
+category: "Work and knowledge"
+include_in_prompt: false

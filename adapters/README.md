@@ -1,17 +1,28 @@
-# Adapter Lintas AI
+# Adapters and platform doors
 
-Satu sumber kebenaran, empat cara memakai. Isi skill hidup di folder `skills/`; folder ini hanya menjelaskan cara memasang ekosistem yang sama di platform AI yang berbeda.
+This package installs natively as a plugin on several agent platforms. The manifests
+live in the repository root area and all point at the same `skills/` folder:
 
-| Platform | Mekanisme | Berkas yang dipakai | Panduan |
-| --- | --- | --- | --- |
-| Claude (Code, aplikasi, web) | Agent Skills standar: frontmatter `name` + `description` di `SKILL.md` | Folder `skills/` apa adanya | [claude/README.md](claude/README.md) |
-| ChatGPT | Custom GPT: kolom Instructions (maks 8.000 karakter) + unggahan Knowledge | [chatgpt/custom-gpt-instructions.md](chatgpt/custom-gpt-instructions.md) ditempel ke Instructions; semua `skills/*/SKILL.md` dan `skills/*/references/*.md` diunggah ke Knowledge | Lihat kepala berkas ChatGPT |
-| Gemini | Gem: kolom instruksi + berkas unggahan; Gemini CLI memakai Agent Skills langsung | [gemini/gem-instructions.md](gemini/gem-instructions.md) ditempel ke instruksi Gem; berkas skill diunggah sebagai bahan | Lihat kepala berkas Gemini |
-| Muse | Custom skills di `~/workspace/custom-skills/` dengan metadata `skill.yaml` | Folder `skills/` disalin dengan nama garis bawah (peta nama tersedia) | [muse/README.md](muse/README.md) |
+| Platform | Manifest |
+| --- | --- |
+| Claude Code | `.claude-plugin/plugin.json` |
+| Codex | `.codex-plugin/plugin.json` |
+| Cursor | `.cursor-plugin/plugin.json` (also loads `rules/`) |
+| Cline | `package.json` + `.cline-plugin/plugin.js` |
+| Kimi Code | `.kimi-plugin/plugin.json` (also loads `rules/` as system prompt) |
+| Generic agent marketplaces | `.agents/plugins/marketplace.json`, `.omp-plugin/marketplace.json` |
 
-Prinsip yang dijaga di semua platform:
+See [../GUIDE.md](../GUIDE.md) for installation routes.
 
-- Sejak versi 2.0.0 skill dipecah per jenjang (25 skill: 5 peran × 5 jenjang). Di platform tanpa mekanisme skill (Custom GPT, Gem), instruksi ringkasnya mewajibkan penetapan jenjang di langkah pertama dan memuat tabel parameter per jenjang; berkas Knowledge yang diunggah adalah SKILL.md dan references dari folder jenjang yang relevan.
-- Teks instruksi ringkas (ChatGPT dan Gemini) adalah aturan yang selalu aktif; kedalaman materi tetap di berkas skill dan referensinya. Bila keduanya bertentangan, berkas skill yang menang dan perbedaan itu layak dilaporkan sebagai temuan.
-- Aturan skor tidak berubah antar platform: MCMA sumatif biner 1-0, formatif 2-1-0, tanpa pecahan bebas di naskah; pecahan pada berkas ekspor CBT hanyalah encoding transport.
-- Adapter tidak menambahkan aturan baru. Adapter hanya menerjemahkan cara pemasangan.
+## Manual adapters (chat assistants without skill support)
+
+- `chatgpt/custom-gpt-instructions.md`: paste as a Custom GPT's instructions.
+- `gemini/gem-instructions.md`: paste as a Gem's instructions, or better, upload the
+  single-file build for your level from `gemini/` (one `.md` per level, complete with
+  references; Gemini's uploader rejects extra Markdown attachments, so one file is
+  the reliable route).
+- `claude/README.md` and `muse/README.md`: how to load the five level skills in
+  Claude-based and Muse environments.
+
+The full skills (source of truth) live in [../skills/](../skills/). Do not edit the
+single-file Gemini builds by hand; they are generated from the skills.

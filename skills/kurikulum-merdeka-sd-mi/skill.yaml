@@ -1,0 +1,5 @@
+name: "kurikulum_merdeka_sd_mi"
+title: "Kurikulum Merdeka SD/MI (Fase A-C)"
+description: "Complete Indonesian Kurikulum Merdeka toolkit for SD/MI only (Fase A-C, Kelas I-VI) in one skill with five roles: modul ajar planning (CP to TP and ATP, Pembelajaran Mendalam stages mapped to SOLO, differentiated LKPD per fase), stimulus and illustration design calibrated per fase, assessment package design (clarification gate, CP-TP kisi-kisi, PG with 3 options in Kelas III and 4 options in Kelas IV-VI, PGK MCMA with dynamic scoring, KKTP rubrics, Mastery Learning follow-up, mandatory self-audit with the R key-distribution check), independent item review and validation (Pusmendik review card, distractor surgery, quantitative item analysis), and conversion to Kartu Soal, print scripts, and CBT/LMS exports (GIFT, Moodle XML, CSV, JSON); Fase A assessment runs without written tests, through observation, performance, and play."
+category: "Work and knowledge"
+include_in_prompt: false
