@@ -1,5 +1,0 @@
-name: "telaah_sd_mi"
-title: "Telaah & Validasi Butir Soal SD/MI"
-description: "Independent second-pass review of Kurikulum Merdeka test items for SD/MI only (Fase A-C, Kelas I-VI), written by anyone (AI, a teacher, or a teacher working group): qualitative review with the Pusmendik review card (Materi, Konstruksi, Bahasa codes for PG/PGK and Uraian, plus an observation and performance instrument checklist for Fase A), a verdict per item (accept, revise, or reject with reasons), distractor surgery that rewrites failed options from named primary-school student misconceptions, quantitative item analysis when trial scores are supplied (difficulty index P, discrimination index D with top and bottom 27 percent groups, distractor effectiveness), and the key-distribution check inherited from the SD/MI core assessment skill."
-category: "Work and knowledge"
-include_in_prompt: false
