@@ -2,7 +2,7 @@
 
 Reference for the modul_ajar_kurikulum_merdeka skill: the 8 Dimensi Profil Lulusan, the three-stage learning experience model mapped to the SOLO taxonomy, and the reflection instruments for teachers and students.
 
-Source note: rebuilt in condensed form from Gemini research Jennifer shared on 2026-11-17. The regulatory citations named here (Permendikdasmen No. 13/2025 for the graduate profile dimensions, Permendikdasmen No. 1/2026 for process assessment, SK Kepala BSKAP No. 046/H/KR/2025 for CP) are that research's output and have not been independently verified against the official Kemendikdasmen documents. Verify before relying on any citation in a formal school document.
+Note on sources: the regulatory citations named here (Permendikdasmen No. 13/2025 for the graduate profile dimensions, Permendikdasmen No. 1/2026 for process assessment, SK Kepala BSKAP No. 046/H/KR/2025 for CP) have not been independently verified against the official Kemendikdasmen documents. Verify before relying on any citation in a formal school document.
 
 ## 1. Delapan Dimensi Profil Lulusan
 

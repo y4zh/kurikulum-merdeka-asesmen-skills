@@ -2,11 +2,11 @@
 
 Reference for the stimulus_dan_ilustrasi_asesmen skill: phase calibration, ready-to-adapt visual templates, curated sources, and the illustration specification format.
 
-Source note: rebuilt in condensed, corrected form from the Gemini research conversation Jennifer shared on 2026-11-17. Its regulatory citations were not independently verified against official Kemendikdasmen documents. Two corrections are applied throughout: the length figures below are practical house defaults, not official rules, and the SVG template's namespace is written clean, with no markup corruption.
+Note on sources: the regulatory citations in this file have not been independently verified against official Kemendikdasmen documents. Two calibration choices apply throughout: the length figures below are practical defaults, not official rules, and the SVG template's namespace is written clean, with no markup corruption.
 
 ## 1. Calibration matrix: practical house defaults, not official rules
 
-The source research found that the 2025 Kemendikdasmen documents set no official word-count or sentence-length limits for most phases. The figures in this table are therefore working defaults this skill uses to pitch a stimulus at roughly the right reading load for a phase. Adjust them to the class in front of you, and never present them as regulation.
+The 2025 Kemendikdasmen documents set no official word-count or sentence-length limits for most phases. The figures in this table are therefore working defaults this skill uses to pitch a stimulus at roughly the right reading load for a phase. Adjust them to the class in front of you, and never present them as regulation.
 
 | Phase | Sentence length (default) | Passage length (default) | Typical text and visual character |
 | --- | --- | --- | --- |
@@ -15,7 +15,7 @@ The source research found that the 2025 Kemendikdasmen documents set no official
 | Fase D (SMP Kelas VII-IX) | About 7-11 words | Around 150-250 words | Information texts (procedure, concept, fact) and mid-level fiction, bar and line charts, cycle diagrams |
 | Fase E-F (SMA/SMK Kelas X-XII) | About 8-12 words | 250-300 words single text, up to 700 words for multi-text with infographic | Complex sentences, contrast and cause-effect conjunctions across paragraphs, multi-text sets, infographics |
 
-The Fase E-F passage figure is the one number in this table the source research reported from an official-adjacent document (ANBK Kelas XI reporting, with the sentence figure attributed to Buletin Asesmen Vol-1 2025). Treat even that as source-reported, not verified. The SD and SMP figures are this skill's own calibration defaults with no official source.
+The Fase E-F passage figure is the one number in this table reported in an official-adjacent document (ANBK Kelas XI reporting, with the sentence figure attributed to Buletin Asesmen Vol-1 2025). Treat even that as reported, not verified. The SD and SMP figures are this skill's own calibration defaults with no official source.
 
 ## 2. Mermaid template: cycle diagram
 

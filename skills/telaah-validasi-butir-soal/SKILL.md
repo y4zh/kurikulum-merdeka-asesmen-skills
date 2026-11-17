@@ -96,4 +96,4 @@ Write reasons in plain language a teacher can act on without opening the referen
 - Do not pass an item because its intention was good. Review what is printed.
 - Do not rewrite a whole item during distractor surgery. Surgery touches distractors; a broken stem or a wrong indicator is a revise or reject verdict with the reason stated.
 - Do not soften a negative D. It always means reject, however elegant the item looks.
-- Do not treat the regulatory citations behind the review card as verified law. The card content here was rebuilt from Gemini research shared on 2026-11-17 and has not been independently checked against the official Pusmendik documents; the 27 percent and 5 percent rules are classical test theory conventions, stated as this skill's working standards.
+- Do not treat the regulatory citations behind the review card as verified law. The card content here has not been independently checked against the official Pusmendik documents; the 27 percent and 5 percent rules are classical test theory conventions, stated as this skill's working standards.

@@ -1,6 +1,6 @@
 # Spesifikasi Format Ekspor
 
-Source note: rebuilt in condensed form from the Gemini research Jennifer shared on 2026-11-17, covering the Kartu Soal template, GIFT, Moodle XML, and CSV formats. One correction is deliberate: the source's MCMA GIFT example used flat partial fractions that contradicted the core skill's scoring policy. The encoding below is corrected so the package's policy governs (sumatif MCMA binary 1-0, formatif MCMA 2-1-0) and the LMS fraction fields act only as transport encoding. See SKILL.md, "Scoring conversion rule", before using any example here.
+Scope: the Kartu Soal template, GIFT, Moodle XML, and CSV formats. One encoding choice is deliberate: the MCMA GIFT encoding below follows the core skill's scoring policy (sumatif MCMA binary 1-0, formatif MCMA 2-1-0), so the LMS fraction fields act only as transport encoding. See SKILL.md, "Scoring conversion rule", before using any example here.
 
 ## 1. Kartu Soal: field structure
 

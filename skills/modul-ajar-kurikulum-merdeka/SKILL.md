@@ -7,7 +7,7 @@ description: "Design Indonesian Kurikulum Merdeka teaching modules (modul ajar) 
 
 Skill for planning teaching under Kurikulum Merdeka (Kemendikdasmen) for PAUD and Fase A-F (SD, SMP, SMA, SMK). It works upstream of assessment: it turns a Capaian Pembelajaran (CP) into Tujuan Pembelajaran (TP), orders the TP into an Alur Tujuan Pembelajaran (ATP), and builds the learning experiences, worksheets, and formative checkpoints that make those TP reachable in class. Assessment results then flow back into this skill as concrete intervention plans for the next meetings.
 
-Source note: this skill was rebuilt in Muse's own format from a Gemini research conversation Jennifer shared on 2026-11-17. The regulatory citations it names are that research's output and have not been independently verified against the official Kemendikdasmen documents. Check a cited rule in the official document before relying on it for a formal school document. Background detail lives in [references/kerangka-pembelajaran-mendalam.md](references/kerangka-pembelajaran-mendalam.md).
+Note on sources: the regulatory citations named in this skill have not been independently verified against the official Kemendikdasmen documents. Check a cited rule in the official document before relying on it for a formal school document. Background detail lives in [references/kerangka-pembelajaran-mendalam.md](references/kerangka-pembelajaran-mendalam.md).
 
 ## When this skill applies
 
@@ -78,4 +78,4 @@ Keep the grade rules from the assessment skill intact while planning these scena
 - Do not skip the Merefleksi stage to save time. Without it the sequence stops at Relasional and the Extended Abstract TP in the ATP has no activity that reaches it.
 - Do not write TP with stacked verbs ("memahami dan menganalisis dan mengevaluasi"). One TP, one verb, one focus; split it if it needs two.
 - Do not plan differentiation as different final grades. Differentiate the content, the process, and the support; the KKTP expectation for the TP stays the same.
-- Do not present the source conversation's regulatory citations (PPA Edisi Revisi 2025, Permendikdasmen No. 1/2026, SK BSKAP 046/2025) as verified law. Flag them for checking against the official documents, the same caveat the assessment skill carries.
+- Do not present the regulatory citations in this skill (PPA Edisi Revisi 2025, Permendikdasmen No. 1/2026, SK BSKAP 046/2025) as verified law. Flag them for checking against the official documents, the same caveat the assessment skill carries.

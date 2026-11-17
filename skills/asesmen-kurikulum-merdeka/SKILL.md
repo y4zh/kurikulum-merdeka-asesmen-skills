@@ -7,7 +7,7 @@ description: "Design complete Indonesian Kurikulum Merdeka assessment packages f
 
 Skill for designing assessment packages and test items for Indonesian schools under Kurikulum Merdeka (Kemendikdasmen), from PAUD through Fase A-F (SD, SMP, SMA, SMK). It produces a complete package, not loose questions: identity, kisi-kisi, stimulus and items, answer key and scoring guide, KKTP rubric, remedial and enrichment follow-up, and a quality audit.
 
-Source note: this skill was rebuilt in Muse's own format from a Gemini research conversation Jennifer shared on 2026-11-17 (title: "Keyword Soal Kurikulum Merdeka"). The regulatory citations it names are Gemini's research output and have not been independently verified against the official Kemendikdasmen documents. Before using a package for a high-stakes exam, check the cited rule in the official document. Details live in [references/regulasi-dan-format-soal.md](references/regulasi-dan-format-soal.md) and [references/kktp-solo-dan-tindak-lanjut.md](references/kktp-solo-dan-tindak-lanjut.md).
+Note on sources: the regulatory citations named in this skill have not been independently verified against the official Kemendikdasmen documents. Before using a package for a high-stakes exam, check the cited rule in the official document. Details live in [references/regulasi-dan-format-soal.md](references/regulasi-dan-format-soal.md) and [references/kktp-solo-dan-tindak-lanjut.md](references/kktp-solo-dan-tindak-lanjut.md).
 
 ## When this skill applies
 
@@ -72,7 +72,7 @@ Tag every item twice: a Bloom level (C1-C6, grouped as LOTS = C1-C2, MOTS = C3, 
 
 KKTP is descriptive, not one uniform passing number like the old KKM. Use the approach chosen at the gate: Deskripsi Kriteria (Perlu Bimbingan, Cukup, Baik, Sangat Baik), Rubrik, Interval Nilai, or Persentase of TP indicators mastered.
 
-Post-remedial grades follow Prinsip 1, Mastery Learning, the principle Jennifer's source conversation settled on: the recorded grade is the highest score the student achieves after remedial. Fairness condition: students who already passed must get an equal chance to improve their score too. Note in the package that the official guidance sets no standard post-remedial formula, so this is school policy, not a regulation quote.
+Post-remedial grades follow Prinsip 1, Mastery Learning, the principle this skill adopts: the recorded grade is the highest score the student achieves after remedial. Fairness condition: students who already passed must get an equal chance to improve their score too. Note in the package that the official guidance sets no standard post-remedial formula, so this is school policy, not a regulation quote.
 
 Hard rule: diagnostik and formatif results never determine report grades, promotion, or graduation.
 
@@ -109,4 +109,4 @@ Run the audit before delivering, and print its result as part 7 of the package:
 - Do not use formatif or diagnostik results for report grades or promotion decisions.
 - Do not place the tested formula inside a numeracy or science stimulus.
 - Do not start a URN rubric at 1. The minimum is 0.
-- Do not present Gemini's regulatory citations from the source conversation as verified law. Flag any rule the user plans to rely on for verification against the official Kemendikdasmen document.
+- Do not present the regulatory citations in this skill as verified law. Flag any rule the user plans to rely on for verification against the official Kemendikdasmen document.

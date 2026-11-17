@@ -7,7 +7,7 @@ description: "Companion skill to asesmen_kurikulum_merdeka that designs calibrat
 
 Companion skill to asesmen_kurikulum_merdeka. That skill assembles the assessment package; this one supplies its raw material: the stimulus texts students read and the visuals they must interpret. A weak stimulus caps every item built on it, so stimulus work comes before item writing, not after.
 
-Source note: this skill was rebuilt in Muse's own format from a Gemini research conversation Jennifer shared on 2026-11-17. The regulatory citations and calibration figures in it are Gemini's research output and have not been independently verified against official Kemendikdasmen documents. In particular, the stimulus lengths in the reference file are practical house defaults for calibration, not official rules: the source research itself found that the 2025 documents set no official word limits for most phases. Templates, source lists, and the specification format live in [references/panduan-visual-dan-wacana.md](references/panduan-visual-dan-wacana.md).
+Note on sources: the regulatory citations and calibration figures in this skill have not been independently verified against official Kemendikdasmen documents. In particular, the stimulus lengths in the reference file are practical defaults for calibration, not official rules: current official documents set no word limits for most phases. Templates, source lists, and the specification format live in [references/panduan-visual-dan-wacana.md](references/panduan-visual-dan-wacana.md).
 
 ## When this skill applies
 

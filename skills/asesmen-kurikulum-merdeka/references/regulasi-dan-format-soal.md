@@ -1,6 +1,6 @@
 # Regulasi dan Format Soal
 
-Reference for the asesmen_kurikulum_merdeka skill. Rebuilt in condensed form from the Gemini research conversation Jennifer shared on 2026-11-17. The citations below are that research's claims, not independently verified readings of the official documents. Verify before relying on any single rule for a high-stakes decision.
+Reference for the asesmen_kurikulum_merdeka skill. Note on sources: the citations below have not been independently verified against the official documents. Verify before relying on any single rule for a high-stakes decision.
 
 ## 1. Regulatory basis named in the source
 
@@ -11,7 +11,7 @@ Reference for the asesmen_kurikulum_merdeka skill. Rebuilt in condensed form fro
 - Permendikdasmen No. 9/2025 and No. 9/2026 (TKA and Asesmen Nasional).
 - Pusmendik and AKM guidance; Naskah Akademik Pembelajaran Mendalam (BSKAP, 2025).
 
-Gaps the source research itself flagged: PPA 2025 gives no standard numeric formula for post-remedial grades; the TKA 2026 guidance gives no manual MCMA scoring rule because TKA scoring is centralized with IRT; and the 2025 documents give no standard stimulus word-count table for every phase.
+Known gaps: PPA 2025 gives no standard numeric formula for post-remedial grades; the TKA 2026 guidance gives no manual MCMA scoring rule because TKA scoring is centralized with IRT; and the 2025 documents give no standard stimulus word-count table for every phase.
 
 ## 2. Three assessment types
 

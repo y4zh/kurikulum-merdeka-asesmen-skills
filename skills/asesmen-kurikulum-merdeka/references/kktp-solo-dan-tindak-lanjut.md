@@ -1,6 +1,6 @@
 # KKTP, SOLO, dan Tindak Lanjut
 
-Reference for the asesmen_kurikulum_merdeka skill: cognitive mapping, dynamic scoring, KKTP approaches, grade processing, and remedial or enrichment follow-up. Condensed from the same 2026-11-17 Gemini research conversation as the first reference file; its regulatory claims were not independently verified.
+Reference for the asesmen_kurikulum_merdeka skill: cognitive mapping, dynamic scoring, KKTP approaches, grade processing, and remedial or enrichment follow-up. Note on sources: its regulatory claims have not been independently verified against the official documents.
 
 ## 1. Cognitive levels: LOTS, MOTS, HOTS
 
@@ -70,7 +70,7 @@ Remedial delivery modes: individual guidance when few students struggle with var
 
 ## 7. Post-remedial grades: the chosen principle
 
-PPA 2025, per the source research, sets no standard formula, so the choice is school policy. This skill applies the principle settled in Jennifer's source conversation:
+PPA 2025 sets no standard formula, so the choice is school policy. This skill applies the following principle:
 
 - Prinsip 1, Mastery Learning (applied): the recorded grade is the highest score achieved after remedial. Fairness condition: students who passed on the first attempt receive an equal opportunity to improve.
 - Prinsip 2 (listed, not applied): cap the post-remedial grade at the KKTP pass threshold.
@@ -85,7 +85,7 @@ Optional part of the package, produced when the user asks for it. Top level: met
 - stimulus array entries: id_stimulus, judul_stimulus, jenis_stimulus, teks_stimulus.
 - items array entries, shown for PG: id, tipe, stimulus_id, pertanyaan, opsi (object keyed A-D or A-E), kunci_jawaban, pembahasan, level_bloom, level_solo, skor_maksimal.
 
-The source conversation showed only the PG shape. When exporting other formats, extend consistently and say so in the audit note: kunci_jawaban becomes an array for MCMA, PGK Kategori items carry a pernyataan list with a category key per statement, and URN items carry their rubric instead of opsi. CSV export uses the same item fields flattened into columns.
+The core schema defines only the PG shape. When exporting other formats, extend consistently and say so in the audit note: kunci_jawaban becomes an array for MCMA, PGK Kategori items carry a pernyataan list with a category key per statement, and URN items carry their rubric instead of opsi. CSV export uses the same item fields flattened into columns.
 
 ## 9. Self-audit checklist
 

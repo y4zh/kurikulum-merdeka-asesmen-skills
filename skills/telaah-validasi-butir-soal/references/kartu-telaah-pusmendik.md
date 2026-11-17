@@ -2,7 +2,7 @@
 
 Reference for the telaah_validasi_butir_soal skill: the qualitative review checklists and the quantitative parameters used in a review.
 
-Source note: the checklists below were rebuilt in condensed checklist form from Gemini research that Jennifer shared on 2026-11-17. Their regulatory citations have not been independently verified against the official Pusmendik documents, so treat the card as a working review instrument, not as a verified quotation of an official form. The 27 percent group split and the 5 percent distractor criterion in section 4 are standard classical test theory conventions, adopted here as this skill's working standards; they do not come from the Gemini material.
+Note on sources: the checklists below have not been independently verified against the official Pusmendik documents, so treat the card as a working review instrument, not as a verified quotation of an official form. The 27 percent group split and the 5 percent distractor criterion in section 4 are standard classical test theory conventions, adopted here as this skill's working standards.
 
 ## 1. Qualitative checklist for PG and PGK items
 
